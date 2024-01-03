@@ -1,6 +1,6 @@
 // 작가
 class Author{
-
+   //객체 의존성
 	private Writeable tool;
 
 	public Author(Writeable tool) {
