@@ -14,7 +14,7 @@ import java.util.Arrays;
 // 학생 접근
 public class Main {
 	public static void main(String[] args) {
-		StudentManage manager = new StudentManageImpl();
+		StudentManage manager = new StudentManageImpl(); 
 		Student s = new Student("길동", 100, 90, 80);
 		manager.register(s);
 		manager.register(new Student("둘리", 90, 80, 70));
